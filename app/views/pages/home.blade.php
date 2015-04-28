@@ -1,6 +1,7 @@
 
 @extends('layouts.main')
 
+<?php $section = "home"; ?>
 
 @section('top-banner')
 	<div>

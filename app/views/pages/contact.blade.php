@@ -2,16 +2,19 @@
 @extends('layouts.main')
 
 
+<?php $section = "contact"; ?>
+
+
 @section('top-banner')
 	<div>
-		<img src="img/clouds.jpg" class="top-banner">
+		<img src="img/clouds-small.jpg" class="top-banner">
 	</div>
 @stop
 
 @section('content')
 
 
-welcome
+<h1>Contact</h1>
 
 @stop
 

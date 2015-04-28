@@ -39,3 +39,4 @@ Route::get('/contact', [
 	'as'=>'contact',
 	'uses'=>'PagesController@contact'
 ]);
+
