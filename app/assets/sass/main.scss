@@ -1,5 +1,7 @@
-body { margin:0; }
 
+body { background-color: aliceblue; }
+
+// Main image for Home page
 .top-banner {
 	background-size: 100% auto;
 	width: 100%;
@@ -7,6 +9,8 @@ body { margin:0; }
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 }
+
+//Nav bar styling
 
 .navbar { 
 	margin-top:0;
@@ -25,5 +29,42 @@ body { margin:0; }
 }
 .navbar-default .navbar-nav>li>a {
 	color: linen;
+}
+
+
+// Form Styling
+.form-group {  width:40%; margin: auto 30%;}
+#submit-btn {  width:40%; margin: auto 30%;}
+
+
+// Contact Page stylings
+#contact-info {  width:40%; margin: auto 30%; }
+
+div#bio-info { 
+	width: 20%;
+	display: inline-block;
+}
+
+.label.info { font-size: 1em; }
+
+//bio image 
+#bio-pic { 
+	width:10%; 
+	display:inline; 
+	border-radius:50%;
+}
+
+#bio-title { text-align:center; }
+
+// Social Media Buttons
+.social-icon { width: 30px; margin: 5px 10px; }
+.social-div { text-align: center; }
+
+//  Contact Form email
+
+.jumbotron.bio { 
+	text-align: center;
+	color: Steelblue;
+	font-size: 3em;
 }
 

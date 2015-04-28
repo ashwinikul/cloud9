@@ -9,7 +9,7 @@ class PagesController extends BaseController {
 	 */
 	public function home()
 	{
-		return View::make('pages.home');
+		return View::make('home');
 	}
 
 
@@ -20,7 +20,7 @@ class PagesController extends BaseController {
 	 */
 	public function services()
 	{
-		return View::make('pages.services');
+		return View::make('services.index');
 	}
 
 
@@ -31,7 +31,7 @@ class PagesController extends BaseController {
 	 */
 	public function contact()
 	{
-		return View::make('pages.contact');
+		return View::make('contact.index');
 	}
 	
 
