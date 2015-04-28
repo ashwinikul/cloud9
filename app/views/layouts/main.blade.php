@@ -23,6 +23,20 @@
 	@yield('content')
 
 
+	<footer class="footer">
+      <div class="container">
+   
+		<ul class="list-inline">
+		  <li class="list-group-item"><a href="/">Home</a></li>
+		  <li class="list-group-item"><a href="/services">Services</a></li>
+		  <li class="list-group-item"><a href="/contact">Contact</a></li>
+		 
+		</ul>
+		<div>Copyright&copy; Cloud Edwards <?php echo date('Y'); ?></div>
+	  </div>
+    </footer>
+
+
 
 	<!-- JQuery -->
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>

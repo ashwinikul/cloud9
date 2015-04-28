@@ -14,7 +14,7 @@ body { background-color: aliceblue; }
 
 .navbar { 
 	margin-top:0;
-	background-color: hsla(180, 10%, 90%,.6);
+	background-color: hsla(180, 10%, 90%,.4);
 	background-image:none;
 	border:none;
 	border-bottom:solid thin linen;
@@ -68,3 +68,14 @@ div#bio-info {
 	font-size: 3em;
 }
 
+
+
+//Footer Styling
+
+.footer { 
+	text-align:center; 
+	margin-top:2%;
+	background-color: hsla(180, 10%, 90%,.4);
+}
+
+.footer a:hover { color:black; text-decoration:none; }
