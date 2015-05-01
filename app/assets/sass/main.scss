@@ -77,12 +77,37 @@ body { background-color: aliceblue; }
 }
 
 // Form Styling
-.form-group {  width:40%; margin: auto 30%;}
+.form-group {  
+	width:40%; 
+	margin: 0 30%;
+}
+form {
+	padding:2%; 
+	padding-top:0.5%;
+	margin-bottom:0;
+}
+
 #submit-btn {  width:40%; margin: auto 30%;}
 
 
 // Contact Page stylings
-#contact-info {  width:40%; margin: auto 30%; }
+#contact-wrapper { 
+	background-color: hsla(140, 40%, 75%, .8); 
+}
+
+#contact-info {  
+	width:40%; 
+	margin: auto 30%; 
+	font-size: 1.5em;
+
+	li { 
+		background-color: hsla(160, 40%, 95%, .8); 
+	}
+	span { 
+		background-color: hsla(220, 40%, 35%, .8); 
+	}
+
+}
 
 div#bio-info { 
 	width: 20%;
@@ -96,7 +121,8 @@ div#bio-info {
 	width:20%; 
 	display:inline; 
 	border-radius:50%;
-	margin: 5%;
+	border: solid thick hsla(150, 40%, 85%, .8); 
+	margin: 2%;
 }
 
 #bio-title { text-align:center; }
@@ -108,12 +134,21 @@ div#bio-info {
 	text-align: center;
 	color: Steelblue;
 	font-size: 3em;
+	margin: 2% 0;
 }
 
 
 // Social Media Buttons
 .social-icon { width: 30px; margin: 5px 10px; }
 .social-div { text-align: center; }
+
+
+// Alert Styling
+
+#error-wrapper { 
+	text-align: center;
+	margin:2%;
+}
 
 
 //Footer Styling

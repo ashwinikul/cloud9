@@ -37,6 +37,11 @@ Route::get('/services', [
 */
 Route::get('/contact', [
 	'as'=>'contact',
-	'uses'=>'PagesController@contact'
+	'uses'=>'MailController@index'
+]);
+
+Route::post('/contact', [
+	'as'=>'contact',
+	'uses'=>'MailController@send'
 ]);
 

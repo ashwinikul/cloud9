@@ -1,7 +1,5 @@
 
 
-<div class="jumbotron bio"> <h4>Have any questions? I'd love to hear from you. Send me an email.</h4> </div>
-
 {{ Form::open() }}
 	
 <div class="form-group">

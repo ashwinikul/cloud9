@@ -22,17 +22,6 @@ class PagesController extends BaseController {
 	{
 		return View::make('services.index');
 	}
-
-
-	/**
-	 * Display Contact page.
-	 *
-	 * @return Response
-	 */
-	public function contact()
-	{
-		return View::make('contact.index');
-	}
 	
 
 }

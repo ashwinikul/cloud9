@@ -1,3 +1,6 @@
+
+
+
 // Make nav bar margin-top be negative the navbar height
 
 var element = document.getElementById('navbar'),
@@ -6,4 +9,8 @@ var element = document.getElementById('navbar'),
 
 document.getElementById("navbar")
 	.style.marginTop = -Math.abs(parseFloat(navH))+'px';
+
+
+// Scroll To
+$('body').scrollTo('#navbar');
 

@@ -24,6 +24,8 @@
 
 	@include('layouts.partials.nav')
 
+	@include('layouts.partials.messages')
+
 	@yield('content')
 
 
@@ -42,6 +44,7 @@
 
 
 
+
 	<!-- JQuery -->
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -49,8 +52,15 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
+	<!-- ScrollTo -->
+	{{ HTML::script('js/scrollTo/scrollTo.js'); }}
+	
 	<!--  jquery script-->
 	<script src="js/main.js"></script>
+
+
+	
+
 
 </body>
 </html>
