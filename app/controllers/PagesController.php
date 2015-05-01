@@ -9,7 +9,7 @@ class PagesController extends BaseController {
 	 */
 	public function home()
 	{
-		return View::make('home');
+		return View::make('home.index');
 	}
 
 

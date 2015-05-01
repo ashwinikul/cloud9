@@ -1,3 +1,6 @@
+* { 
+	font-family: "Roboto", sans-serif;
+	 }
 
 body { background-color: aliceblue; }
 
@@ -13,11 +16,10 @@ body { background-color: aliceblue; }
 //Nav bar styling
 
 .navbar { 
-	margin-top:0;
+	margin:0;
 	background-color: hsla(180, 10%, 90%,.4);
 	background-image:none;
 	border:none;
-	border-bottom:solid thin linen;
 	border-radius:0;
 	height: auto;
 	background-repeat: no-repeat;
@@ -31,6 +33,48 @@ body { background-color: aliceblue; }
 	color: linen;
 }
 
+
+
+// Home Page
+
+.jumbotron { 
+	padding: 5% 2% 5% 10%; 
+	line-height: 200%;
+	color: hsl(200, 40%, 20%);;
+	font-size: 18px;
+	margin:0;
+	text-align: center;
+	h3 { text-align: left; margin-bottom: 2%; }
+	article { 
+		text-align: left;
+		width: 80%;
+	}
+}
+
+
+.jumbotron.A { 
+	background-color:hsla(200, 40%, 75%, .8); 
+}
+.jumbotron.A1 { 
+	background-color:hsla(250, 40%, 75%, .8); 
+}
+.jumbotron.B { 
+	background-color:hsla(60, 40%, 75%, .8);
+}
+
+.jumbotron.C { 
+	background-color:hsla(190, 10%, 75%, .8); 
+}
+
+.jumbotron.D { 
+	background-color:hsla(280, 40%, 75%, .8);
+}
+.jumbotron.E { 
+	background-color:hsla(0, 60%, 70%, .8); 
+}
+.jumbotron.F { 
+	background-color:hsla(130, 40%, 75%, .8); 
+}
 
 // Form Styling
 .form-group {  width:40%; margin: auto 30%;}
@@ -49,16 +93,14 @@ div#bio-info {
 
 //bio image 
 #bio-pic { 
-	width:10%; 
+	width:20%; 
 	display:inline; 
 	border-radius:50%;
+	margin: 5%;
 }
 
 #bio-title { text-align:center; }
 
-// Social Media Buttons
-.social-icon { width: 30px; margin: 5px 10px; }
-.social-div { text-align: center; }
 
 //  Contact Form email
 
@@ -69,12 +111,16 @@ div#bio-info {
 }
 
 
+// Social Media Buttons
+.social-icon { width: 30px; margin: 5px 10px; }
+.social-div { text-align: center; }
+
 
 //Footer Styling
 
 .footer { 
 	text-align:center; 
-	margin-top:2%;
+	margin-top:0;
 	background-color: hsla(180, 10%, 90%,.4);
 }
 

@@ -8,6 +8,10 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
+	<!-- Google Fonts -->
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
 	<!-- SASS user stylesheet using gulp-autoprefixer and gulp-minify-css CSS -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
