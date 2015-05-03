@@ -1,0 +1,39 @@
+
+// Jumbotron class styling for home page
+
+
+
+.jumbotron { 
+	padding: 5% 2% 5% 10%; 
+	line-height: 200%;
+	color: hsl(200, 40%, 20%);;
+	font-size: 18px;
+	margin:0;
+	text-align: left;
+}
+
+.jumbotron > .media {  width: 60%;}
+
+
+
+
+.jumbotron.A { 
+	background-color:hsla(200, 40%, 75%, .8); 
+}
+.jumbotron.B { 
+	background-color:hsla(250, 40%, 75%, .8); 
+}
+
+.jumbotron.C { 
+	background-color:hsla(190, 10%, 75%, .8); 
+}
+
+.jumbotron.D { 
+	background-color:hsla(280, 40%, 75%, .8);
+}
+.jumbotron.E { 
+	background-color:hsla(0, 60%, 70%, .8); 
+}
+.jumbotron.F { 
+	background-color:hsla(130, 40%, 75%, .8); 
+}

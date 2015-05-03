@@ -1,0 +1,52 @@
+@media (max-width: 1000px) {
+
+	#contact-info {  
+		width:60%;
+		font-size:1.2em;
+	}
+
+
+	// Form Styling
+	.form-group {  
+		width:60%; 
+	}
+
+	#submit-btn {  width:60%; }
+
+	
+
+	//bio image 
+	#bio-pic { 
+		width:40%;
+	}
+}
+
+@media (max-width: 600px) {
+
+	#contact-info {  
+		width:90%;
+		font-size:.9em;
+	}
+
+	// Form Styling
+	.form-group {  
+		width:80%; 
+	}
+
+	#submit-btn {  width:8
+		0%; }
+
+	div#bio-info { 
+		width: 30%;
+	}
+
+	//bio image 
+	#bio-pic { 
+		width:60%;
+	}
+
+
+	
+}
+
+

@@ -29,9 +29,9 @@ class MailController extends \BaseController {
 
         //Validation rules
         $rules = array (
-            'name' => 'required|alpha',
+            'name' => 'required',
             'email' => 'required|email',
-            'message' => 'required|min:25'
+            'message' => 'required|min:10'
         );
 
         //Validate User Input
@@ -40,7 +40,7 @@ class MailController extends \BaseController {
         // If validation passes Send Mail
         if ($validator -> passes()){
 
-      		Mail::send('emails.hello', $data, function($message) use ($data)
+      		Mail::send('emails.hello', ['data'=>$data], function($message) use ($data)
             {
             	//email 'From' field: Get users email add and name
                 $message->from($data['email'] , $data['name']);

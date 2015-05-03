@@ -12,8 +12,17 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
-	<!-- SASS user stylesheet using gulp-autoprefixer and gulp-minify-css CSS -->
+	<!-- SASS user stylesheets using gulp-autoprefixer and gulp-minify-css CSS -->
+
+	<link rel="stylesheet" type="text/css" href="css/jumbotron.css">
+
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+
+	{{-- Main --}}
+
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 
 

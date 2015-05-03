@@ -35,51 +35,10 @@ body { background-color: aliceblue; }
 
 
 
-// Home Page
-
-.jumbotron { 
-	padding: 5% 2% 5% 10%; 
-	line-height: 200%;
-	color: hsl(200, 40%, 20%);;
-	font-size: 18px;
-	margin:0;
-	text-align: center;
-	h3 { text-align: left; margin-bottom: 2%; }
-	article { 
-		text-align: left;
-		width: 80%;
-	}
-}
-
-
-.jumbotron.A { 
-	background-color:hsla(200, 40%, 75%, .8); 
-}
-.jumbotron.A1 { 
-	background-color:hsla(250, 40%, 75%, .8); 
-}
-.jumbotron.B { 
-	background-color:hsla(60, 40%, 75%, .8);
-}
-
-.jumbotron.C { 
-	background-color:hsla(190, 10%, 75%, .8); 
-}
-
-.jumbotron.D { 
-	background-color:hsla(280, 40%, 75%, .8);
-}
-.jumbotron.E { 
-	background-color:hsla(0, 60%, 70%, .8); 
-}
-.jumbotron.F { 
-	background-color:hsla(130, 40%, 75%, .8); 
-}
-
 // Form Styling
 .form-group {  
 	width:40%; 
-	margin: 0 30%;
+	margin: 0 auto;
 }
 form {
 	padding:2%; 
@@ -89,58 +48,6 @@ form {
 
 #submit-btn {  width:40%; margin: auto 30%;}
 
-
-// Contact Page stylings
-#contact-wrapper { 
-	background-color: hsla(140, 40%, 75%, .8); 
-}
-
-#contact-info {  
-	width:40%; 
-	margin: auto 30%; 
-	font-size: 1.5em;
-
-	li { 
-		background-color: hsla(160, 40%, 95%, .8); 
-	}
-	span { 
-		background-color: hsla(220, 40%, 35%, .8); 
-	}
-
-}
-
-div#bio-info { 
-	width: 20%;
-	display: inline-block;
-}
-
-.label.info { font-size: 1em; }
-
-//bio image 
-#bio-pic { 
-	width:20%; 
-	display:inline; 
-	border-radius:50%;
-	border: solid thick hsla(150, 40%, 85%, .8); 
-	margin: 2%;
-}
-
-#bio-title { text-align:center; }
-
-
-//  Contact Form email
-
-.jumbotron.bio { 
-	text-align: center;
-	color: Steelblue;
-	font-size: 3em;
-	margin: 2% 0;
-}
-
-
-// Social Media Buttons
-.social-icon { width: 30px; margin: 5px 10px; }
-.social-div { text-align: center; }
 
 
 // Alert Styling

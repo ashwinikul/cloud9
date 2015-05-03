@@ -15,17 +15,23 @@
 <div class="jumbotron A">
 
 	<div class="media">
-		<img class="media-object" 
+		<div class="media-left">
+			<img class="media-object" 
 			src="img/icons/page.png" 
 			alt="icon of a web page">
+		</div>
+
+	    <div class="media-body">
+			<h3 class="media-heading">Custom Web Development</h3>
+			<article>
+				A custom built modern website is incredibly flexible and powerful. Unleash the technology to create solutions.
+			</article>
+		</div>
 	</div>
-	<h3>Custom Web Development</h3>
-	<article>
-		A custom built modern website is incredibly flexible and powerful. Unleash the technology to create solutions.
-	</article>
+
 </div>
 
-<div class="jumbotron A1">
+<div class="jumbotron B">
 
 	<div class="media">
 		<img class="media-object" 
@@ -38,20 +44,6 @@
 	</article>
 </div>
 
-<div class="jumbotron B">
-	<div class="media">
-		<img class="media-object" 
-			src="img/icons/pencil.png" 
-			alt="icon of a pencil">
-	</div>
-	<h3>Web Artisan</h3>
-	<article>
-		Tailor made for your needs, and able to grow with your business. 
-	</article>
-	<article>
-		Websites built with the Laravel framework are easy to maintain, scalable, and elegant. 
-	</article>
-</div>
 
 <div class="jumbotron C">
 	<div class="media">

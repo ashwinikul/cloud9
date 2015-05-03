@@ -10,6 +10,25 @@ gulp.task('css', function () {
 	.pipe(autoprefixer('last 10 version'))
 	.pipe(minifycss())
 	.pipe(gulp.dest('public/css'));
+
+	gulp.src('app/assets/sass/responsive.scss')
+	.pipe(sass())
+	.pipe(autoprefixer('last 10 version'))
+	.pipe(minifycss())
+	.pipe(gulp.dest('public/css'));
+
+	gulp.src('app/assets/sass/jumbotron.scss')
+	.pipe(sass())
+	.pipe(autoprefixer('last 10 version'))
+	.pipe(minifycss())
+	.pipe(gulp.dest('public/css'));
+
+	gulp.src('app/assets/sass/contact.scss')
+	.pipe(sass())
+	.pipe(autoprefixer('last 10 version'))
+	.pipe(minifycss())
+	.pipe(gulp.dest('public/css'));
+
 });
 
 gulp.task('watch', function() {

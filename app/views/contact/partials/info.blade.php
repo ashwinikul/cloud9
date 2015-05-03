@@ -20,7 +20,7 @@
 
 	<li class="list-group-item">
 		 <div id="bio-info">Location</div>
-		 <span class="label label-default info">Nelson, BC, Canada, Milky Way</span>
+		 <span class="label label-default info">Nelson, BC, Canada</span>
 	</li>
 </ul>
 
