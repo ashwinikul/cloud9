@@ -2,7 +2,11 @@
 	font-family: "Roboto", sans-serif;
 	 }
 
-body { background-color: aliceblue; }
+body {
+	background-image: url('../img/clouds.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 // Main image for Home page
 .top-banner {

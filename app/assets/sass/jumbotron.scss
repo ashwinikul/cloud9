@@ -2,19 +2,22 @@
 // Jumbotron class styling for home page
 
 
+.media-object { margin: 2% auto; text-align: center;}
+
+.jumbotron-container { text-align:center; }
 
 .jumbotron { 
-	padding: 5% 2% 5% 10%; 
+	float:left;
+	vertical-align: top;
+	display: inline-block;
+	width: 33.33333333333333333333333%;
 	line-height: 200%;
 	color: hsl(200, 40%, 20%);;
 	font-size: 18px;
 	margin:0;
-	text-align: left;
+	text-decoration: none;
+	text-align: center;
 }
-
-.jumbotron > .media {  width: 60%;}
-
-
 
 
 .jumbotron.web-dev { 

@@ -88,8 +88,8 @@
 
 		'content' 	=> 
 		
-		'No sensitive customer information ever touches our servers hard drives.
-		This means no hacker can steal customer data from our servers, because there isn\'t anything to steal.',
+		'No sensitive customer information ever touches our server hard drives.
+		This means hacker can\'t steal customer data from our servers.',
 
 		'class' 	=> 'secure',
 
