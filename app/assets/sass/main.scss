@@ -8,6 +8,7 @@ body {
 	background-repeat: no-repeat;
 }
 
+
 // Main image for Home page
 .top-banner {
 	background-size: 100% auto;
@@ -31,12 +32,15 @@ body {
 }
 
 .navbar-default .navbar-brand {
-	color: linen;
+	color: white;
 }
 .navbar-default .navbar-nav>li>a {
-	color: linen;
+	color: white;
 }
 
+.navbar-toggle {
+	background-color: lightgrey;
+}
 
 
 // Form Styling
@@ -66,8 +70,21 @@ form {
 
 .footer { 
 	text-align:center; 
-	margin-top:0;
 	background-color: hsla(180, 10%, 90%,.4);
 }
 
-.footer a:hover { color:black; text-decoration:none; }
+.footer a:hover { 
+	color:black; 
+	text-decoration:none; 
+}
+
+.footer li { 
+	margin-top:1%;
+}
+
+.footer.list-group-item:first-child {
+	border-top-left-radius: 1px;
+  	border-top-right-radius: 1px;
+}
+
+

@@ -38,9 +38,12 @@ div#bio-info {
 
 //  Contact Form email
 
-.jumbotron.bio { 
+.bar.bio { 
 	text-align: center;
 	color: Steelblue;
+	width:100%;
+	padding:3%;
+	background-color: hsla(150, 0%, 85%, .8); 
 	font-size: 3em;
 	margin: 2% 0;
 }

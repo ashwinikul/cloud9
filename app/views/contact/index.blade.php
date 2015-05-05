@@ -22,7 +22,7 @@
 
 @include('contact.partials.social')
 
-<div class="jumbotron bio"> 
+<div class="bio bar"> 
 	<h2>Have any questions? I'd love to hear from you. </h2>
 	<h4>Send me an email, and I'll get back to you as quick as I can.</h4> 
 </div>

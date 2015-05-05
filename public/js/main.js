@@ -11,6 +11,9 @@ document.getElementById("navbar")
 	.style.marginTop = -Math.abs(parseFloat(navH))+'px';
 
 
-// Scroll To
-$('body').scrollTo('#navbar');
+var error = $('errors');
+if (error && error.value) {
 
+	// Scroll To
+	$('body').scrollTo('#errors');
+}
