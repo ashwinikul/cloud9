@@ -18,21 +18,21 @@
       <ul class="nav navbar-nav">
 
         <?php $homeNav = ""; ?>
-        <?php $servicesNav = ""; ?>
+        <?php $pricingNav = ""; ?>
         <?php $contactNav = ""; ?>
 
         @if($section == "home")
           <?php $homeNav = "active"; ?>
 
-        @elseif($section == "services")
-          <?php $servicesNav = "active"; ?>
+        @elseif($section == "pricing")
+          <?php $pricingNav = "active"; ?>
 
         @elseif($section == "contact")
           <?php $contactNav = "active"; ?>
         @endif
 
         <li class="{{$homeNav}}"><a href="/">Home<span class="sr-only"></span></a></li>
-        <li class="{{$servicesNav}}"><a href="/services">Services</a></li>
+        <li class="{{$pricingNav}}"><a href="/pricing">Pricing</a></li>
         <li class="{{$contactNav}}"><a href="/contact">Contact</a></li>
         
     </div><!-- /.navbar-collapse -->

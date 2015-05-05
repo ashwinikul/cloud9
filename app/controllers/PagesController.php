@@ -18,9 +18,9 @@ class PagesController extends BaseController {
 	 *
 	 * @return Response
 	 */
-	public function services()
+	public function pricing()
 	{
-		return View::make('services.index');
+		return View::make('pricing.index');
 	}
 	
 

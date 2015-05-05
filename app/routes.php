@@ -26,9 +26,9 @@ Route::get('/', [
 /**
 * Services Page
 */
-Route::get('/services', [
-	'as'=>'services',
-	'uses'=>'PagesController@services'
+Route::get('/pricing', [
+	'as'=>'pricing',
+	'uses'=>'PagesController@pricing'
 ]);
 
 

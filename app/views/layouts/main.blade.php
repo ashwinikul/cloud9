@@ -2,6 +2,9 @@
 <head>
 	<title>Cloud9 Computing</title>
 
+	{{-- Bootstrap Mobile first metatag --}}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
@@ -23,6 +26,8 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/pricing.css">
 
 
 

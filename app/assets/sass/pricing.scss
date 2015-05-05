@@ -1,0 +1,29 @@
+
+.bar.pricing { 
+	color:darkslategrey;
+	background-color: hsla(40, 10%, 85%, .9);
+	margin:0;
+
+}
+
+.well.pricing { 
+	margin: 0 auto;
+	background-color: hsla(40, 10%, 85%, .8);
+	border-radius: 0;
+}
+
+#pricing-heading { 
+	min-height: 125px; 
+}
+
+.col-md-4.pricing { padding:0;}
+
+
+.price { 
+	text-align: center; 
+	color: violetred; 
+}
+
+.glyphicon-ok { color: green; }
+
+.glyphicon-remove { color: red; }

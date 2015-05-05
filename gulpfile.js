@@ -29,6 +29,12 @@ gulp.task('css', function () {
 	.pipe(minifycss())
 	.pipe(gulp.dest('public/css'));
 
+	gulp.src('app/assets/sass/pricing.scss')
+	.pipe(sass())
+	.pipe(autoprefixer('last 10 version'))
+	.pipe(minifycss())
+	.pipe(gulp.dest('public/css'));
+
 });
 
 gulp.task('watch', function() {

@@ -12,6 +12,7 @@ $jumbotronTable = jumbotronTable();
 
 @foreach($jumbotronTable as $item)
 
+
 <div class="jumbotron {{$item['class']}}">
 	
 <div class="media">
@@ -21,11 +22,13 @@ $jumbotronTable = jumbotronTable();
 		alt="{{$item['img-alt']}}">
 	</div>
 
-	<div class="media-body">
+	<div class="well">
+		<div class="media-body">
 		<h3 class="media-heading">{{$item['heading']}}</h3>
 		<article>
 			{{$item['content']}}
 		</article>
+	</div>
 	</div>
 
 </div>	{{-- media  --}}
