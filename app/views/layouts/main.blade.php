@@ -48,7 +48,7 @@
    
 		<ul class="list-inline">
 		  <li class="list-group-item"><a href="/">Home</a></li>
-		  <li class="list-group-item"><a href="/services">Services</a></li>
+		  <li class="list-group-item"><a href="/pricing">Pricing</a></li>
 		  <li class="list-group-item"><a href="/contact">Contact</a></li>
 		 
 		</ul>
