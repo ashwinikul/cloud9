@@ -47,9 +47,9 @@
       <div class="container">
    
 		<ul class="list-inline">
-		  <li class="list-group-item"><a href="/">Home</a></li>
-		  <li class="list-group-item"><a href="/pricing">Pricing</a></li>
-		  <li class="list-group-item"><a href="/contact">Contact</a></li>
+		  <a href="/"><li class="btn btn-default">Home</li></a>
+		  <a href="/pricing"><li class="btn btn-default">Pricing</li></a>
+		  <a href="/contact"><li class="btn btn-default">Contact</li></a>
 		 
 		</ul>
 		<div>Copyright&copy; Cloud Edwards <?php echo date('Y'); ?></div>

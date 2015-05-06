@@ -32,7 +32,7 @@
 
 			  <li class="list-group-item list-group-item-success">
 			  	 <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-			  	 {{$key}}</li>
+			  	  {{$key}}</li>
 			@else
 			  <li class="list-group-item list-group-item-danger">
 			   <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>

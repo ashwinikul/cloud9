@@ -7,21 +7,24 @@
 }
 
 .well.pricing { 
+	padding: 8%;
 	margin: 0 auto;
-	background-color: hsla(40, 10%, 85%, .8);
 	border-radius: 0;
 }
 
+.col-md-4.pricing {
+	background-color: hsla(40, 10%, 85%, .4);
+}
+
 #pricing-heading { 
-	min-height: 125px; 
+	min-height: 140px; 
 }
 
 .col-md-4.pricing { padding:0;}
 
 
 .price { 
-	text-align: center; 
-	color: violetred; 
+	color: seagreen; 
 }
 
 .glyphicon-ok { color: green; }
