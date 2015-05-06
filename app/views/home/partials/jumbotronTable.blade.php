@@ -29,7 +29,7 @@
 
 		'content' 	=> 
 		
-		'Works with smart phones and tablets, adjusts automatically to respond to visitors various devices.',
+		'Works with smart phones and tablets, adjusts automatically to respond to visitors\' various devices.',
 
 		'class' 	=> 'responsive',
 
@@ -69,7 +69,7 @@
 
 		'content' 	=> 
 		
-		'Take payments easily and safely using Stripe, and PayPal.
+		'Take payments easily and safely using Stripe and PayPal.
 		Safely save customer data with an encrypted token, and automatically bill clients on a monthly basis.',
 
 		'class' 	=> 'payments',
@@ -89,7 +89,7 @@
 		'content' 	=> 
 		
 		'No sensitive customer information ever touches our server hard drives.
-		This means hacker can\'t steal customer data from our servers.',
+		This means hackers can\'t steal customer data from our servers.',
 
 		'class' 	=> 'secure',
 
@@ -106,7 +106,7 @@
 
 		'content' 	=> 
 		
-		'Set up automatic deposits strait to your bank account and a daily, weekly, or monthly basis.
+		'Set up automatic deposits straight to your bank account and a daily, weekly, or monthly basis.
 		Get passive income rolling into your bank account, with a custom built website.',
 
 		'class' 	=> 'get-paid',
