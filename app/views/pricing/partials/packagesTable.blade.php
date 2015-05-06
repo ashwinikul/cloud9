@@ -5,9 +5,9 @@
 
 	return [
 
-	/* Business Card */
+	/* The Business Portfolio */
 	[
-		'heading' 	=> 'The Business Card ',
+		'heading' 	=> 'The Business Portfolio ',
 
 		'subHeading' 	=> 'Basic Static Website, for Professional Portfolios, and Business Web Presence',
 
