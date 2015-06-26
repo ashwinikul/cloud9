@@ -20,6 +20,7 @@
         <?php $homeNav = ""; ?>
         <?php $pricingNav = ""; ?>
         <?php $contactNav = ""; ?>
+        <?php $portfolioNav = ""; ?>
 
         @if($section == "home")
           <?php $homeNav = "active"; ?>
@@ -29,11 +30,15 @@
 
         @elseif($section == "contact")
           <?php $contactNav = "active"; ?>
+
+          @elseif($section == "portfolio")
+          <?php $portfolioNav = "active"; ?>
         @endif
 
         <li class="{{$homeNav}}"><a href="/">Home<span class="sr-only"></span></a></li>
         <li class="{{$pricingNav}}"><a href="/pricing">Pricing</a></li>
         <li class="{{$contactNav}}"><a href="/contact">Contact</a></li>
+        <li class="{{$portfolioNav}}"><a href="/portfolio">Portfolio</a></li>
         
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

@@ -1,7 +1,7 @@
 
 @extends('layouts.main')
 
-<?php $section = "home"; ?>
+<?php $section = "portfolio"; ?>
 
 @section('top-banner')
 	<div>
@@ -12,10 +12,7 @@
 
 @section('content')
 
-@include('home.partials.jumbotronTable')
-
-@include('home.partials.jumbotron')
-
+@include('portfolio.partials.sites')
 
 @stop
 

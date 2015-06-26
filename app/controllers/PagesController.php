@@ -14,13 +14,23 @@ class PagesController extends BaseController {
 
 
 	/**
-	 * Display Services page.
+	 * Display Pricing page.
 	 *
 	 * @return Response
 	 */
 	public function pricing()
 	{
 		return View::make('pricing.index');
+	}
+
+	/**
+	 * Display Portfolio page.
+	 *
+	 * @return Response
+	 */
+	public function portfolio()
+	{
+		return View::make('portfolio.index');
 	}
 	
 

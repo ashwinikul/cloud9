@@ -24,7 +24,7 @@ Route::get('/', [
 
 
 /**
-* Services Page
+* Pricing Page
 */
 Route::get('/pricing', [
 	'as'=>'pricing',
@@ -43,5 +43,14 @@ Route::get('/contact', [
 Route::post('/contact', [
 	'as'=>'contact',
 	'uses'=>'MailController@send'
+]);
+
+
+/**
+* Portfolio Page
+*/
+Route::get('/portfolio', [
+    'as'=>'portfolio',
+    'uses'=>'PagesController@portfolio'
 ]);
 

@@ -1,0 +1,16 @@
+
+.portfolio { font-size: 20px; }
+.bar.portfolio { margin:0; }
+.portfolio-header { width:40%; text-align: center; margin: 1%; }
+
+.sites-iframe {
+    width:70%;
+    height:400px;
+    margin: 0 15%;
+    overflow: hidden;
+}
+
+a.portfolio-link { color:black; text-align:center;}
+div.portfolio-link { margin: 3% auto 0 auto; width:30%;}
+.portfolio-link:hover { color:maroon;}
+

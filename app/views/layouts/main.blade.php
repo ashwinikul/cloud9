@@ -32,6 +32,8 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/pricing.css">
 
+	<link rel="stylesheet" type="text/css" href="css/override.css">
+
 
 
 </head>
@@ -53,6 +55,7 @@
 		  <a href="/"><li class="btn btn-default">Home</li></a>
 		  <a href="/pricing"><li class="btn btn-default">Pricing</li></a>
 		  <a href="/contact"><li class="btn btn-default">Contact</li></a>
+		  <a href="/portfolio"><li class="btn btn-default">Portfolio</li></a>
 		 
 		</ul>
 		<div>Copyright&copy; Cloud Edwards <?php echo date('Y'); ?></div>
